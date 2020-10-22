@@ -2,3 +2,5 @@ payload:
   # > bilibili
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,exosrv.com
+  - DOMAIN-SUFFIX,tsyndicate.com
+  - DOMAIN-SUFFIX,jads.co
