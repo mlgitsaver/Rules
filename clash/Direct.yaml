@@ -1,3 +1,4 @@
 payload:
   # > bilibili
   - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,exosrv.com
