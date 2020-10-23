@@ -1,5 +1,5 @@
 payload:
+  # Video AD
   - DOMAIN-SUFFIX,exosrv.com
   - DOMAIN-SUFFIX,tsyndicate.com
   - DOMAIN-SUFFIX,jads.co
-
