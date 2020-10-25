@@ -4,6 +4,9 @@ payload:
   - DOMAIN-SUFFIX,vidoza.net
   - DOMAIN-SUFFIX,fvs.io
   - DOMAIN-SUFFIX,o0-1.com
+  - DOMAIN-SUFFIX,o0-2.com
+  - DOMAIN-SUFFIX,o0-3.com
+  - DOMAIN-SUFFIX,o0-4.com
   - DOMAIN-SUFFIX,exosrv.com
   - DOMAIN-SUFFIX,tsyndicate.com
   - DOMAIN-SUFFIX,jads.co
