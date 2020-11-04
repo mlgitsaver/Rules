@@ -5,5 +5,5 @@ payload:
   # > Synlogy
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN-SUFFIX,synology.com
-  - DOMAIN-SUFFIX,whatismyip.akamai.com
+  - DOMAIN,whatismyip.akamai.com
   - IP-CIDR,68.183.160.0/20,no-resolve
