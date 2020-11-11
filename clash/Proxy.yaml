@@ -18,3 +18,5 @@ payload:
   # Jellyfin
   - DOMAIN-SUFFIX,jellyfin.org
   - DOMAIN-SUFFIX,synocommunity.com
+  # BTSchool
+  - DOMAIN,pt.btschool.club

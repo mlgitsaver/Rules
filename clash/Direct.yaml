@@ -6,5 +6,3 @@ payload:
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN,whatismyip.akamai.com
   - IP-CIDR,68.183.160.0/20
-  # BTSchool
-  - DOMAIN-SUFFIX,btschool.club
