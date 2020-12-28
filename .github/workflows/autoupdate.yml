@@ -23,6 +23,7 @@ jobs:
           echo "ACL4SSR_BanProgramAD_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_BanEasyList_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_BanEasyListChina_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml" >> $GITHUB_ENV
+          echo "ACL4SSR_BanEasyPrivacy_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_GoogleFCM_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_GoogleCN_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_OneDrive_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml" >> $GITHUB_ENV
@@ -36,11 +37,13 @@ jobs:
           echo "ACL4SSR_Netflix_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_Bahamut_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_Bilibili_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ProxyMedia_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_BilibiliHMT_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml" >> $GITHUB_ENV
+          echo "ACL4SSR_ChinaMedia_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml" >> $GITHUB_ENV
+          echo "ACL4SSR_ProxyMedia_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_ProxyGFWlist_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_ChinaDomain_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_ChinaCompanyIp_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml" >> $GITHUB_ENV
+          echo "ACL4SSR_Download_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml" >> $GITHUB_ENV
 
         shell: bash
 
@@ -54,6 +57,7 @@ jobs:
           wget -O BanProgramAD.yaml $ACL4SSR_BanProgramAD_URL
           wget -O BanEasyList.yaml $ACL4SSR_BanEasyList_URL
           wget -O BanEasyListChina.yaml $ACL4SSR_BanEasyListChina_URL
+          wget -O BanEasyPrivacy.yaml $ACL4SSR_BanEasyPrivacy_URL
           wget -O GoogleFCM.yaml $ACL4SSR_GoogleFCM_URL
           wget -O GoogleCN.yaml $ACL4SSR_GoogleCN_URL
           wget -O OneDrive.yaml $ACL4SSR_OneDrive_URL
@@ -67,11 +71,13 @@ jobs:
           wget -O Netflix.yaml $ACL4SSR_Netflix_URL
           wget -O Bahamut.yaml $ACL4SSR_Bahamut_URL
           wget -O Bilibili.yaml $ACL4SSR_Bilibili_URL
-          wget -O ProxyMedia.yaml $ACL4SSR_ProxyMedia_URL
           wget -O BilibiliHMT.yaml $ACL4SSR_BilibiliHMT_URL
+          wget -O ChinaMedia.yaml $ACL4SSR_ChinaMedia_URL
+          wget -O ProxyMedia.yaml $ACL4SSR_ProxyMedia_URL
           wget -O ProxyGFWlist.yaml $ACL4SSR_ProxyGFWlist_URL
           wget -O ChinaDomain.yaml $ACL4SSR_ChinaDomain_URL
           wget -O ChinaCompanyIp.yaml $ACL4SSR_ChinaCompanyIp_URL
+          wget -O Download.yaml $ACL4SSR_Download_URL
 
       - name: Git push assets to "release" branch
         run: |
