@@ -27,6 +27,7 @@ jobs:
           echo "ACL4SSR_GoogleFCM_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_GoogleCN_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_OneDrive_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml" >> $GITHUB_ENV
+          echo "ACL4SSR_Microsoft_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_Apple_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_Telegram_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml" >> $GITHUB_ENV
           echo "ACL4SSR_NetEaseMusic_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml" >> $GITHUB_ENV
@@ -61,6 +62,7 @@ jobs:
           wget -O GoogleFCM.yaml $ACL4SSR_GoogleFCM_URL
           wget -O GoogleCN.yaml $ACL4SSR_GoogleCN_URL
           wget -O OneDrive.yaml $ACL4SSR_OneDrive_URL
+          wget -O Microsoft.yaml $ACL4SSR_Microsoft_URL
           wget -O Apple.yaml $ACL4SSR_Apple_URL
           wget -O Telegram.yaml $ACL4SSR_Telegram_URL
           wget -O NetEaseMusic.yaml $ACL4SSR_NetEaseMusic_URL
