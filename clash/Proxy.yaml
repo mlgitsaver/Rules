@@ -1,25 +1,28 @@
 payload:
-  # Hpjav Video
-  - DOMAIN-SUFFIX,asianclub.tv
-  - DOMAIN-SUFFIX,vidoza.net
-  - DOMAIN-SUFFIX,fvs.io
-  - DOMAIN-SUFFIX,o0-1.com
-  - DOMAIN-SUFFIX,o0-2.com
-  - DOMAIN-SUFFIX,o0-3.com
-  - DOMAIN-SUFFIX,o0-4.com
-  - DOMAIN-SUFFIX,o0-5.com
-  - DOMAIN-SUFFIX,o0-6.com
-  - DOMAIN-SUFFIX,o0-7.com
-  - DOMAIN-SUFFIX,exosrv.com
-  - DOMAIN-SUFFIX,tsyndicate.com
-  - DOMAIN-SUFFIX,jads.co
-  - DOMAIN-SUFFIX,ddmax20.xyz
-  - DOMAIN-SUFFIX,e2wysbacctt1.com
-  # JAVLibrary
-  - DOMAIN-SUFFIX,m45e.com
-  - DOMAIN-SUFFIX,juicyads.com
-  # Jellyfin
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,airav.wiki
+  - DOMAIN-SUFFIX,hpjav.tv
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,wnacg.download
+  - DOMAIN-SUFFIX,18comic.org
+  - DOMAIN-SUFFIX,18comic.vip
+  # > Media
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,anidb.net
+  # > Media Server
   - DOMAIN-SUFFIX,jellyfin.org
-  - DOMAIN-SUFFIX,synocommunity.com
-  # BTSchool
-  - DOMAIN,pt.btschool.club
+  - DOMAIN-SUFFIX,emby.media
+  - DOMAIN-SUFFIX,emby.tv
+  - DOMAIN-SUFFIX,kodi.tv
+  # > PT ext
+  - DOMAIN-SUFFIX,mobygames.com
+  - DOMAIN-SUFFIX,ptpimg.me
+  - DOMAIN-SUFFIX,imgbox.com
+  - DOMAIN-SUFFIX,pegi.info
+  # > Seedbox
+  - DOMAIN-SUFFIX,oneprovider.com
+  - DOMAIN-SUFFIX,op-net.com
