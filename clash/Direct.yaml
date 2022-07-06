@@ -1,8 +1,12 @@
 payload:
-  # > Tencent
-  - DOMAIN,file-igamecj.akamaized.net
   # > Synlogy
   - DOMAIN-SUFFIX,quickconnect.to
-  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN,checkip.synology.com
+  - DOMAIN,checkipv6.synology.com
+  - DOMAIN,checkport.synology.com
+  - DOMAIN,ddns.synology.com
+  - DOMAIN,account.synology.com
   - DOMAIN,whatismyip.akamai.com
-  - IP-CIDR,68.183.160.0/20
+  - DOMAIN,checkip.dyndns.org
+  # > Ali
+  - DOMAIN-SUFFIX,mhxiuxian.com
