@@ -1,13 +1,28 @@
 payload:
+  # > Sources
+  - DOMAIN-SUFFIX,pypa.io
+  - DOMAIN-SUFFIX,paypal.com
+  #- DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,openwrt.org
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,entware.net
+  - DOMAIN-SUFFIX,alpinelinux.org
+  - DOMAIN-SUFFIX,synocommunity.com
+  - DOMAIN-SUFFIX,synology.com
+  #- DOMAIN,cloudsync-tw.synology.com
+  #- DOMAIN,global.download.synology.com
+  #- DOMAIN,pkgautoupdate.synology.com
+  # > JAV
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,airav.wiki
   - DOMAIN-SUFFIX,hpjav.tv
+  # > H-comic
   - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,wnacg.download
   - DOMAIN-SUFFIX,18comic.org
   - DOMAIN-SUFFIX,18comic.vip
-  # > Media
+  # > Media scraping
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,thetvdb.com
@@ -18,6 +33,17 @@ payload:
   - DOMAIN-SUFFIX,emby.media
   - DOMAIN-SUFFIX,emby.tv
   - DOMAIN-SUFFIX,kodi.tv
+  # > PT
+  #- DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN,kp.m-team.cc
+  - DOMAIN-SUFFIX,groueta.cc
+  - DOMAIN-SUFFIX,dmhy.best
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,flacsfor.me
+  - DOMAIN,beyond-hd.me
+  - DOMAIN,tmdb.beyond-hd.me
+  - DOMAIN,beyondhd.co
+  - DOMAIN,greatposterwall.com
   # > PT ext
   - DOMAIN-SUFFIX,mobygames.com
   - DOMAIN-SUFFIX,ptpimg.me
