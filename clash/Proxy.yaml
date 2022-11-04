@@ -44,7 +44,7 @@ payload:
   - DOMAIN-SUFFIX,flacsfor.me
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,beyond-hd.me
-  - DOMAIN,tmdb.beyond-hd.me
+  # - DOMAIN,tmdb.beyond-hd.me
   - DOMAIN,beyondhd.co
   - DOMAIN-SUFFIX,pterclub.com
   #- DOMAIN,totheglory.im
