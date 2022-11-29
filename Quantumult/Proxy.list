@@ -1,0 +1,55 @@
+# > Sources
+DOMAIN-SUFFIX,pypa.io
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,openwrt.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,entware.net
+DOMAIN-SUFFIX,alpinelinux.org
+DOMAIN-SUFFIX,synocommunity.com
+DOMAIN-SUFFIX,synology.com
+# > Games
+DOMAIN-SUFFIX,mobafire.com
+DOMAIN-SUFFIX,wildriftfire.com
+# > AC
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,javdb.com
+DOMAIN-SUFFIX,airav.wiki
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,wnacg.org
+DOMAIN-SUFFIX,wnacg.download
+DOMAIN-SUFFIX,18comic.org
+DOMAIN-SUFFIX,18comic.vip
+DOMAIN-SUFFIX,mangabz.org
+DOMAIN-SUFFIX,manhwa-raw.com
+# > Media scraping
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,omdbapi.com
+DOMAIN-SUFFIX,anidb.net
+# > Media Server
+DOMAIN-SUFFIX,jellyfin.org
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,emby.tv
+DOMAIN-SUFFIX,kodi.tv
+# > PT
+DOMAIN,kp.m-team.cc
+DOMAIN-SUFFIX,groueta.cc
+DOMAIN-SUFFIX,dmhy.best
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,gazellegames.net
+DOMAIN-SUFFIX,redacted.ch
+DOMAIN-SUFFIX,flacsfor.me
+DOMAIN-SUFFIX,animebytes.tv
+DOMAIN-SUFFIX,beyond-hd.me
+DOMAIN,beyondhd.co
+DOMAIN-SUFFIX,pterclub.com
+DOMAIN,greatposterwall.com
+# > PT ext
+DOMAIN-SUFFIX,mobygames.com
+DOMAIN-SUFFIX,ptpimg.me
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,pegi.info
+# > Seedbox
+DOMAIN-SUFFIX,oneprovider.com
+DOMAIN-SUFFIX,op-net.com
