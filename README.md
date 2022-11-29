@@ -14,6 +14,8 @@
 https://raw.githubusercontent.com/mlgitsaver/Rules/private/clash/Direct.yaml
 https://raw.githubusercontent.com/mlgitsaver/Rules/private/clash/Proxy.yaml
 
+https://raw.githubusercontent.com/mlgitsaver/Rules/private/Quantumult/Proxy.list
+
 https://cdn.jsdelivr.net/gh/mlgitsaver/Rules@private/clash/Direct.yaml
 https://cdn.jsdelivr.net/gh/mlgitsaver/Rules@private/clash/Proxy.yaml
 
