@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,alpinelinux.org
   - DOMAIN-SUFFIX,synocommunity.com
   - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,qbittorrent.org
   # > ACG
   - DOMAIN-SUFFIX,mobafire.com
   - DOMAIN-SUFFIX,wildriftfire.com
@@ -32,6 +33,8 @@ payload:
   - DOMAIN-SUFFIX,emby.tv
   - DOMAIN-SUFFIX,kodi.tv
   # > PT
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,ptpimg.me
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,groueta.cc
   - DOMAIN-SUFFIX,dmhy.org
@@ -42,12 +45,10 @@ payload:
   - DOMAIN-SUFFIX,flacsfor.me
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,beyond-hd.me
-  - DOMAIN,beyondhd.co
+  - DOMAIN-SUFFIX,beyondhd.co
   - DOMAIN-SUFFIX,pterclub.com
-  - DOMAIN-SUFFIX,greatposterwall.com
   # > ext
   - DOMAIN-SUFFIX,mobygames.com
-  - DOMAIN-SUFFIX,ptpimg.me
   - DOMAIN-SUFFIX,imgbox.com
   - DOMAIN-SUFFIX,pegi.info
   - DOMAIN-SUFFIX,oneprovider.com
