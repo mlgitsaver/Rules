@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,trustwallet.com
   - DOMAIN-SUFFIX,wallhaven.cc
+  - DOMAIN-SUFFIX,f-droid.org
   # > ACG
   - DOMAIN-SUFFIX,mobafire.com
   - DOMAIN-SUFFIX,wildriftfire.com
