@@ -6,8 +6,19 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,entware.net
 DOMAIN-SUFFIX,alpinelinux.org
 DOMAIN-SUFFIX,synocommunity.com
+DOMAIN-SUFFIX,synologydownload.com
 DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,qbittorrent.org
+# > ext
+DOMAIN-SUFFIX,mobygames.com
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,pegi.info
+DOMAIN-SUFFIX,oneprovider.com
+DOMAIN-SUFFIX,op-net.com
+DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,wallhaven.cc
 # > ACG
 DOMAIN-SUFFIX,mobafire.com
 DOMAIN-SUFFIX,wildriftfire.com
@@ -19,7 +30,7 @@ DOMAIN-SUFFIX,wnacg.org
 DOMAIN-SUFFIX,wnacg.download
 DOMAIN-SUFFIX,18comic.org
 DOMAIN-SUFFIX,18comic.vip
-DOMAIN-SUFFIX,mangabz.org
+DOMAIN-SUFFIX,mangabz.com
 DOMAIN-SUFFIX,manhwa-raw.com
 # > Media
 DOMAIN-SUFFIX,themoviedb.org
@@ -32,6 +43,7 @@ DOMAIN-SUFFIX,emby.media
 DOMAIN-SUFFIX,emby.tv
 DOMAIN-SUFFIX,kodi.tv
 # > PT
+DOMAIN-SUFFIX,hdbits.org
 DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,ptpimg.me
 DOMAIN-SUFFIX,m-team.cc
@@ -46,10 +58,4 @@ DOMAIN-SUFFIX,animebytes.tv
 DOMAIN-SUFFIX,beyond-hd.me
 DOMAIN-SUFFIX,beyondhd.co
 DOMAIN-SUFFIX,pterclub.com
-# > ext
-DOMAIN-SUFFIX,mobygames.com
-DOMAIN-SUFFIX,imgbox.com
-DOMAIN-SUFFIX,pegi.info
-DOMAIN-SUFFIX,oneprovider.com
-DOMAIN-SUFFIX,op-net.com
-DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,greatposterwall.com
