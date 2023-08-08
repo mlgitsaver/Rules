@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,f-droid.org
 # > ACG
 DOMAIN-SUFFIX,mobafire.com
 DOMAIN-SUFFIX,wildriftfire.com
@@ -47,10 +48,12 @@ DOMAIN-SUFFIX,hdbits.org
 DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,ptpimg.me
 DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,groueta.cc
 DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,dmhy.best
 DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,gazellegames.net
 DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,flacsfor.me
