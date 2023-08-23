@@ -1,4 +1,6 @@
 payload:
+  # >
+  - DOMAIN-SUFFIX,ntp.org
   # > Synlogy
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN,checkip.synology.com
