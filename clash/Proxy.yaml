@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,pythonhosted.org
   - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,azureedge.net
   # > ext
   - DOMAIN-SUFFIX,mobygames.com
   - DOMAIN-SUFFIX,imgbox.com
