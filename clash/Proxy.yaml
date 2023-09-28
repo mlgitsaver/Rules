@@ -49,6 +49,7 @@ payload:
   - DOMAIN-SUFFIX,emby.media
   - DOMAIN-SUFFIX,emby.tv
   - DOMAIN-SUFFIX,kodi.tv
+  - DOMAIN-SUFFIX,trakt.tv
   # > PT
   - DOMAIN-SUFFIX,hdbits.org
   - DOMAIN-SUFFIX,passthepopcorn.me
@@ -59,6 +60,7 @@ payload:
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,dmhy.best
   - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,chdbits.xyz
   - DOMAIN-SUFFIX,ptchdbits.co
   - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,redacted.ch
