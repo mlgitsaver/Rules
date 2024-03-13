@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,pythonhosted.org
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,godaddy.com
 # > ext
 DOMAIN-SUFFIX,mobygames.com
@@ -37,7 +38,6 @@ DOMAIN-SUFFIX,wnacg.org
 DOMAIN-SUFFIX,wnacg.download
 DOMAIN-SUFFIX,18comic.org
 DOMAIN-SUFFIX,18comic.vip
-DOMAIN-SUFFIX,jm-comic2.club
 DOMAIN-SUFFIX,mangabz.com
 DOMAIN-SUFFIX,manhwa-raw.com
 # > Media
@@ -45,10 +45,14 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,omdbapi.com
+DOMAIN-SUFFIX,myanimelist.net
+DOMAIN-SUFFIX,anisearch.com
+DOMAIN-SUFFIX,anisearch.de
 DOMAIN-SUFFIX,anidb.net
 DOMAIN-SUFFIX,jellyfin.org
 DOMAIN-SUFFIX,emby.media
 DOMAIN-SUFFIX,emby.tv
+DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,kodi.tv
 DOMAIN-SUFFIX,trakt.tv
 # > PT
@@ -71,3 +75,4 @@ DOMAIN-SUFFIX,beyond-hd.me
 DOMAIN-SUFFIX,beyondhd.co
 DOMAIN-SUFFIX,pterclub.com
 DOMAIN-SUFFIX,greatposterwall.com
+DOMAIN-SUFFIX,springsunday.net

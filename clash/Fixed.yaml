@@ -1,6 +1,7 @@
 payload:  
   # > PT
   - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,landof.tv
   - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,beyond-hd.me
