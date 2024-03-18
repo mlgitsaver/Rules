@@ -10,5 +10,5 @@ payload:
   - DOMAIN,account.synology.com
   - DOMAIN,whatismyip.akamai.com
   - DOMAIN,checkip.dyndns.org
-  # > Ali
-  - DOMAIN-SUFFIX,mhxiuxian.com
+  # > Forced
+  - DOMAIN-SUFFIX,broadcasthe.net
