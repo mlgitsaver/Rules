@@ -7,79 +7,42 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Go 1.x.y
-        uses: actions/setup-go@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
-          go-version: "^1.15"
+          python-version: '3.8'
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import re
+            import requests
 
-      - name: Set variables
-        run: |
-          echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          
-          echo "ACL4SSR_LocalAreaNetwork_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_UnBan_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BanAD_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BanProgramAD_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BanEasyList_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BanEasyListChina_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BanEasyPrivacy_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_GoogleFCM_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_GoogleCN_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_OneDrive_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Microsoft_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Apple_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Telegram_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_NetEaseMusic_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Epic_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Sony_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Steam_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_YouTube_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Netflix_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Bahamut_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Bilibili_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_BilibiliHMT_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ChinaMedia_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ProxyMedia_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ProxyGFWlist_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ChinaDomain_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_ChinaCompanyIp_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml" >> $GITHUB_ENV
-          echo "ACL4SSR_Download_URL=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml" >> $GITHUB_ENV
+            raw_url = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
+            response = requests.get(raw_url)
+            if response.status_code == 200:
+                ini_content = response.text
+                raw_lines = ini_content.splitlines()
+                urls = []
+                url_pattern = re.compile(r'(https?://[^\s]+)')
+                for line in raw_lines:
+                    if line.startswith("ruleset") and "http" in line:
+                        match = url_pattern.search(line)
+                        if match:
+                            urls.append(match.group(0))
 
-        shell: bash
+                def download_file(url, save_path):
+                    response = requests.get(url)
+                    if response.status_code == 200:
+                        with open(save_path, 'wb') as file:
+                            file.write(response.content)
+                        print("download success")
+                    else:
+                        print(f"download fail {url}")
 
-      - name: Update lists
-        run: |
-          mkdir publish
-          cd publish
-          wget -O LocalAreaNetwork.yaml $ACL4SSR_LocalAreaNetwork_URL
-          wget -O UnBan.yaml $ACL4SSR_UnBan_URL
-          wget -O BanAD.yaml $ACL4SSR_BanAD_URL
-          wget -O BanProgramAD.yaml $ACL4SSR_BanProgramAD_URL
-          wget -O BanEasyList.yaml $ACL4SSR_BanEasyList_URL
-          wget -O BanEasyListChina.yaml $ACL4SSR_BanEasyListChina_URL
-          wget -O BanEasyPrivacy.yaml $ACL4SSR_BanEasyPrivacy_URL
-          wget -O GoogleFCM.yaml $ACL4SSR_GoogleFCM_URL
-          wget -O GoogleCN.yaml $ACL4SSR_GoogleCN_URL
-          wget -O OneDrive.yaml $ACL4SSR_OneDrive_URL
-          wget -O Microsoft.yaml $ACL4SSR_Microsoft_URL
-          wget -O Apple.yaml $ACL4SSR_Apple_URL
-          wget -O Telegram.yaml $ACL4SSR_Telegram_URL
-          wget -O NetEaseMusic.yaml $ACL4SSR_NetEaseMusic_URL
-          wget -O Epic.yaml $ACL4SSR_Epic_URL
-          wget -O Sony.yaml $ACL4SSR_Sony_URL
-          wget -O Steam.yaml $ACL4SSR_Steam_URL
-          wget -O YouTube.yaml $ACL4SSR_YouTube_URL
-          wget -O Netflix.yaml $ACL4SSR_Netflix_URL
-          wget -O Bahamut.yaml $ACL4SSR_Bahamut_URL
-          wget -O Bilibili.yaml $ACL4SSR_Bilibili_URL
-          wget -O BilibiliHMT.yaml $ACL4SSR_BilibiliHMT_URL
-          wget -O ChinaMedia.yaml $ACL4SSR_ChinaMedia_URL
-          wget -O ProxyMedia.yaml $ACL4SSR_ProxyMedia_URL
-          wget -O ProxyGFWlist.yaml $ACL4SSR_ProxyGFWlist_URL
-          wget -O ChinaDomain.yaml $ACL4SSR_ChinaDomain_URL
-          wget -O ChinaCompanyIp.yaml $ACL4SSR_ChinaCompanyIp_URL
-          wget -O Download.yaml $ACL4SSR_Download_URL
+                for url in urls:
+                    filename = os.path.basename(url)
+                    download_file(url, filename)
 
       - name: Git push assets to "release" branch
         run: |
