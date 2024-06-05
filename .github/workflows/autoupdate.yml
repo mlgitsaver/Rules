@@ -45,7 +45,7 @@ jobs:
                 os.mkdir("publish")
                 for url in urls:
                     file_path = os.path.join("publish", os.path.basename(url))
-                    download_file(url, filename)
+                    download_file(url, file_path)
 
       - name: Git push assets to "release" branch
         run: |
