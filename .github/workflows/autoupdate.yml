@@ -39,12 +39,12 @@ jobs:
                     if response.status_code == 200:
                         with open(save_path, 'wb') as file:
                             file.write(response.content)
-                        print("download success")
+                        print(f"download success {url}")
                     else:
                         print(f"download fail {url}")
-
+                os.mkdir("publish")
                 for url in urls:
-                    filename = os.path.basename(url)
+                    file_path = os.path.join("publish", os.path.basename(url))
                     download_file(url, filename)
 
       - name: Git push assets to "release" branch
