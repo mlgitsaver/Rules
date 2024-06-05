@@ -11,8 +11,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.9'
-      - name: Install dependencies 
-        run: python -m pip install requests
+
+      - name: Prepare
+        run: |
+          echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+          mkdir publish
+          python -m pip install requests
 
       - uses: jannekem/run-python-script-action@v1
         with:
@@ -42,7 +47,6 @@ jobs:
                         print(f"download success {url}")
                     else:
                         print(f"download fail {url}")
-                os.mkdir("publish")
                 for url in urls:
                     file_path = os.path.join("publish", os.path.basename(url))
                     download_file(url, file_path)
