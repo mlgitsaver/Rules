@@ -16,7 +16,6 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          mkdir publish
           python -m pip install requests
 
       - uses: jannekem/run-python-script-action@v1
@@ -37,16 +36,25 @@ jobs:
                     if line.startswith("ruleset") and "http" in line:
                         match = url_pattern.search(line)
                         if match:
-                            urls.append(match.group(0))
+                            url = match.group(0)
+                            fix_url = url.replace("master/Clash", "master/Clash/Providers").replace(".list", ".yaml")
+                            urls.append(fix_url)
 
-                def download_file(url, save_path):
+                def download_file(url: str, save_path):
                     response = requests.get(url)
                     if response.status_code == 200:
                         with open(save_path, 'wb') as file:
                             file.write(response.content)
-                        print(f"download success {url}")
                     else:
-                        print(f"download fail {url}")
+                        newurl = url.replace("Providers","Providers/Ruleset")
+                        response = requests.get(newurl)
+                        if response.status_code == 200:
+                            with open(save_path, 'wb') as file:
+                                file.write(response.content)
+                        else:
+                            print(f"download fail {url}")
+                if not os.path.exists("publish"):
+                    os.mkdir("publish")
                 for url in urls:
                     file_path = os.path.join("publish", os.path.basename(url))
                     download_file(url, file_path)
