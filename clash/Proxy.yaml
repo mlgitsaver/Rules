@@ -57,23 +57,19 @@ payload:
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,trakt.tv
   # > PT
-  - DOMAIN-SUFFIX,hdbits.org
-  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN,www.hdbits.org
   - DOMAIN-SUFFIX,ptpimg.me
-  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN,kp.m-team.cc
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,groueta.cc
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,dmhy.best
-  - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,chdbits.xyz
+  - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,ptchdbits.co
-  - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,flacsfor.me
-  - DOMAIN-SUFFIX,animebytes.tv
-  - DOMAIN-SUFFIX,beyond-hd.me
-  - DOMAIN-SUFFIX,beyondhd.co
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,greatposterwall.com
+  - DOMAIN-SUFFIX,kshare.club
   - DOMAIN-SUFFIX,springsunday.net

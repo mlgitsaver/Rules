@@ -10,5 +10,7 @@ payload:
   - DOMAIN,account.synology.com
   - DOMAIN,whatismyip.akamai.com
   - DOMAIN,checkip.dyndns.org
-  # > Forced
+  # > tracker
   - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN,tracker.hdbits.org
+  - DOMAIN,tracker.m-team.cc
