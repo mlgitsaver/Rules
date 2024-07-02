@@ -57,10 +57,9 @@ payload:
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,trakt.tv
   # > PT
-  - DOMAIN,www.hdbits.org
+  - DOMAIN,hdbits.org
   - DOMAIN-SUFFIX,ptpimg.me
-  - DOMAIN,kp.m-team.cc
-  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,groueta.cc
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,dmhy.best
