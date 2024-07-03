@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,kodi.tv
 DOMAIN-SUFFIX,trakt.tv
 # > PT
 DOMAIN,hdbits.org
+DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,ptpimg.me
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,groueta.cc
