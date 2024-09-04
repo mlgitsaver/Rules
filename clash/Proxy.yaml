@@ -23,6 +23,9 @@ payload:
   - DOMAIN-SUFFIX,analytics.plex.tv
   - DOMAIN-SUFFIX,metadata-static.plex.tv
   - DOMAIN-SUFFIX,meta.plex.tv
+  - DOMAIN-SUFFIX,tvthemes.plexapp.com
+  - DOMAIN-SUFFIX,images.plex.tv
+  - DOMAIN-SUFFIX,scrobbles.plex.tv
   # > ext
   - DOMAIN-SUFFIX,mobygames.com
   - DOMAIN-SUFFIX,imgbox.com
