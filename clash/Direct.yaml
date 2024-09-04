@@ -10,6 +10,7 @@ payload:
   - DOMAIN,account.synology.com
   - DOMAIN,whatismyip.akamai.com
   - DOMAIN,checkip.dyndns.org
+  - DOMAIN,v4.plex.tv
   # > tracker
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN,tracker.hdbits.org
