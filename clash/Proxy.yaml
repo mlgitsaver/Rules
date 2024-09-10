@@ -70,6 +70,7 @@ payload:
   - DOMAIN,songkick.plex.tv
   - DOMAIN,lyricfind.plex.tv
   - DOMAIN,acoustid.plex.tv
+  - DOMAIN,me.plexapp.com
   # > PT
   - DOMAIN,hdbits.org
   - DOMAIN-SUFFIX,passthepopcorn.me
