@@ -18,13 +18,6 @@ DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,singlelogin.re
 DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,metadata.provider.plex.tv
-DOMAIN-SUFFIX,analytics.plex.tv
-DOMAIN-SUFFIX,metadata-static.plex.tv
-DOMAIN-SUFFIX,meta.plex.tv
-DOMAIN-SUFFIX,tvthemes.plexapp.com
-DOMAIN-SUFFIX,images.plex.tv
-DOMAIN-SUFFIX,scrobbles.plex.tv
 # > ext
 DOMAIN-SUFFIX,mobygames.com
 DOMAIN-SUFFIX,imgbox.com
@@ -64,6 +57,15 @@ DOMAIN-SUFFIX,emby.tv
 DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,kodi.tv
 DOMAIN-SUFFIX,trakt.tv
+# > plex
+DOMAIN,metadata.provider.plex.tv
+DOMAIN,analytics.plex.tv
+DOMAIN,metadata-static.plex.tv
+DOMAIN,meta.plex.tv
+DOMAIN,tvthemes.plexapp.com
+DOMAIN,images.plex.tv
+DOMAIN,scrobbles.plex.tv
+DOMAIN,mbz.plex.tv
 # > PT
 DOMAIN,hdbits.org
 DOMAIN-SUFFIX,passthepopcorn.me
