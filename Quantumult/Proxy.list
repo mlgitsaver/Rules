@@ -68,6 +68,7 @@ DOMAIN,scrobbles.plex.tv
 DOMAIN,mbz.plex.tv
 DOMAIN,songkick.plex.tv
 DOMAIN,lyricfind.plex.tv
+DOMAIN,acoustid.plex.tv
 # > PT
 DOMAIN,hdbits.org
 DOMAIN-SUFFIX,passthepopcorn.me
