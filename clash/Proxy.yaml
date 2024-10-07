@@ -1,5 +1,5 @@
 payload:
-  # > Sources
+  # >
   - DOMAIN-SUFFIX,pypa.io
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,openwrt.org
@@ -19,7 +19,6 @@ payload:
   - DOMAIN-SUFFIX,godaddy.com
   - DOMAIN-SUFFIX,singlelogin.re
   - DOMAIN-SUFFIX,x.com
-  # > ext
   - DOMAIN-SUFFIX,mobygames.com
   - DOMAIN-SUFFIX,imgbox.com
   - DOMAIN-SUFFIX,pegi.info
@@ -30,6 +29,15 @@ payload:
   - DOMAIN-SUFFIX,trustwallet.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,f-droid.org
+  # > Sources
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,myanimelist.net
+  - DOMAIN-SUFFIX,anisearch.com
+  - DOMAIN-SUFFIX,anisearch.de
+  - DOMAIN-SUFFIX,anidb.net
   # > ACG
   - DOMAIN-SUFFIX,mobafire.com
   - DOMAIN-SUFFIX,wildriftfire.com
@@ -41,17 +49,10 @@ payload:
   - DOMAIN-SUFFIX,wnacg.download
   - DOMAIN-SUFFIX,18comic.org
   - DOMAIN-SUFFIX,18comic.vip
+  - DOMAIN-SUFFIX,jmcomic.me
   - DOMAIN-SUFFIX,mangabz.com
   - DOMAIN-SUFFIX,manhwa-raw.com
   # > Media
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,tmdb.org
-  - DOMAIN-SUFFIX,thetvdb.com
-  - DOMAIN-SUFFIX,omdbapi.com
-  - DOMAIN-SUFFIX,myanimelist.net
-  - DOMAIN-SUFFIX,anisearch.com
-  - DOMAIN-SUFFIX,anisearch.de
-  - DOMAIN-SUFFIX,anidb.net
   - DOMAIN-SUFFIX,jellyfin.org
   - DOMAIN-SUFFIX,emby.media
   - DOMAIN-SUFFIX,emby.tv
@@ -87,5 +88,4 @@ payload:
   - DOMAIN-SUFFIX,flacsfor.me
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,greatposterwall.com
-  - DOMAIN-SUFFIX,kshare.club
   - DOMAIN-SUFFIX,springsunday.net

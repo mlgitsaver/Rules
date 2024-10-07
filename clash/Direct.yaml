@@ -1,6 +1,8 @@
 payload:
   # >
   - DOMAIN-SUFFIX,ntp.org
+  - DOMAIN,checkip.dyndns.org
+  - DOMAIN,whatismyip.akamai.com
   # > Synlogy
   - DOMAIN-SUFFIX,quickconnect.to
   - DOMAIN,checkip.synology.com
@@ -8,9 +10,9 @@ payload:
   - DOMAIN,checkport.synology.com
   - DOMAIN,ddns.synology.com
   - DOMAIN,account.synology.com
-  - DOMAIN,whatismyip.akamai.com
-  - DOMAIN,checkip.dyndns.org
+  # > Media
   - DOMAIN,v4.plex.tv
+  - DOMAIN-SUFFIX,baozimh.com
   # > tracker
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN,tracker.hdbits.org
