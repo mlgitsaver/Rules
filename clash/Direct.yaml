@@ -16,4 +16,5 @@ payload:
   # > tracker
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN,tracker.hdbits.org
+  - DOMAIN-SUFFIX,flacsfor.me
   - DOMAIN,tracker.m-team.io
