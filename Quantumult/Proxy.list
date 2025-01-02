@@ -87,3 +87,5 @@ DOMAIN-SUFFIX,redacted.sh
 DOMAIN-SUFFIX,pterclub.com
 DOMAIN-SUFFIX,greatposterwall.com
 DOMAIN-SUFFIX,springsunday.net
+# > Fix
+DOMAIN,tracker.m-team.io
