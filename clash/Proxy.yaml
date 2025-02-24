@@ -19,6 +19,8 @@ payload:
   - DOMAIN-SUFFIX,godaddy.com
   - DOMAIN-SUFFIX,singlelogin.re
   - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,mobygames.com
   - DOMAIN-SUFFIX,imgbox.com
   - DOMAIN-SUFFIX,pegi.info
