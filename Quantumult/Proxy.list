@@ -31,6 +31,9 @@ DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,hearthstonejson.com
+# > Development
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
 # > Sources
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
@@ -75,7 +78,6 @@ DOMAIN,lyricfind.plex.tv
 DOMAIN,acoustid.plex.tv
 DOMAIN,me.plexapp.com
 # > PT
-DOMAIN,tracker.hdbits.org
 DOMAIN,hdbits.org
 DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,ptpimg.me
