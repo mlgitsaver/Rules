@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,pypa.io
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,entware.net
 DOMAIN-SUFFIX,alpinelinux.org
 DOMAIN-SUFFIX,synocommunity.com
