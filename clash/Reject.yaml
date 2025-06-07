@@ -1,0 +1,3 @@
+payload:  
+  # > mac内显示很多下载流量
+  - DOMAIN,safebrowsing.googleapis.com
