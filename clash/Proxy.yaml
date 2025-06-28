@@ -1,30 +1,30 @@
 payload:
-  # >
-  - DOMAIN-SUFFIX,pypa.io
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,openwrt.org
+  # > Development
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,pypa.io
+  - DOMAIN-SUFFIX,pypi.org
+  # - DOMAIN-SUFFIX,brew.sh
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,entware.net
+  - DOMAIN-SUFFIX,cloudflarestorage.com
+  # > Normal
+  - DOMAIN-SUFFIX,mobafire.com
+  - DOMAIN-SUFFIX,wildriftfire.com
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,openwrt.org
   - DOMAIN-SUFFIX,alpinelinux.org
-  - DOMAIN-SUFFIX,synocommunity.com
-  - DOMAIN-SUFFIX,synologydownload.com
-  - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,civitai.com
-  - DOMAIN-SUFFIX,pythonhosted.org
-  - DOMAIN-SUFFIX,pypi.org
-  - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,cloudflarestorage.com
   - DOMAIN-SUFFIX,godaddy.com
   - DOMAIN-SUFFIX,singlelogin.re
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,mobygames.com
-  - DOMAIN-SUFFIX,imgbox.com
-  - DOMAIN-SUFFIX,pegi.info
   - DOMAIN-SUFFIX,oneprovider.com
   - DOMAIN-SUFFIX,op-net.com
   - DOMAIN-SUFFIX,hostloc.com
@@ -33,9 +33,10 @@ payload:
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,hearthstonejson.com
-  # > Development
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,cursor.com
+  # > Synology
+  - DOMAIN-SUFFIX,synocommunity.com
+  - DOMAIN-SUFFIX,synologydownload.com
+  - DOMAIN-SUFFIX,synology.com
   # > Sources
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,tmdb.org
@@ -45,9 +46,10 @@ payload:
   - DOMAIN-SUFFIX,anisearch.com
   - DOMAIN-SUFFIX,anisearch.de
   - DOMAIN-SUFFIX,anidb.net
+  - DOMAIN-SUFFIX,mobygames.com
+  - DOMAIN-SUFFIX,imgbox.com
+  - DOMAIN-SUFFIX,pegi.info
   # > ACG
-  - DOMAIN-SUFFIX,mobafire.com
-  - DOMAIN-SUFFIX,wildriftfire.com
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,airav.wiki
@@ -66,7 +68,7 @@ payload:
   - DOMAIN-SUFFIX,mb3admin.com
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,trakt.tv
-  # > plex
+  # > Plex
   - DOMAIN,metadata.provider.plex.tv
   - DOMAIN,analytics.plex.tv
   - DOMAIN,metadata-static.plex.tv
