@@ -14,6 +14,7 @@ payload:
   - DOMAIN,v4.plex.tv
   - DOMAIN-SUFFIX,baozimh.com
   # > tracker
+  # - DOMAIN,tracker.hdbits.org
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,flacsfor.me
   - DOMAIN,tracker.m-team.io

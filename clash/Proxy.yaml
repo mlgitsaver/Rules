@@ -84,9 +84,7 @@ payload:
   - DOMAIN,acoustid.plex.tv
   - DOMAIN,me.plexapp.com
   # > PT
-  - DOMAIN,tracker.hdbits.org
-  - DOMAIN,hdbits.org
-  - DOMAIN,i.hdbits.org
+  - DOMAIN-SUFFIX,hdbits.org
   - DOMAIN-SUFFIX,passthepopcorn.me
   - DOMAIN-SUFFIX,ptpimg.me
   - DOMAIN-SUFFIX,m-team.cc
