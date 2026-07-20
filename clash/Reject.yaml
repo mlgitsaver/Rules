@@ -2,4 +2,4 @@ payload:
   # > mac内显示很多下载流量
   - DOMAIN,safebrowsing.googleapis.com
   # > PC 内大量不明连接，网站证书也有问题
-  - DOMAIN,360mon.cn
+  - DOMAIN-SUFFIX,360mon.cn
