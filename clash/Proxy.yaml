@@ -52,6 +52,8 @@ payload:
   - DOMAIN-SUFFIX,imgbox.com
   - DOMAIN-SUFFIX,pegi.info
   # > ACG
+  - DOMAIN-SUFFIX,sehuatang.net
+  - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,airav.wiki
