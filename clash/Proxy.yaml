@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,hearthstonejson.com
   - DOMAIN-SUFFIX,telephony.goog
+  - DOMAIN-SUFFIX,linux.do
   # > Synology
   - DOMAIN-SUFFIX,synocommunity.com
   - DOMAIN-SUFFIX,synologydownload.com
