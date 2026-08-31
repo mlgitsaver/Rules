@@ -55,6 +55,7 @@ payload:
   # > ACG
   - DOMAIN-SUFFIX,sehuatang.net
   - DOMAIN-SUFFIX,sehuatang.org
+  - DOMAIN-SUFFIX,fc2.com
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,airav.wiki
